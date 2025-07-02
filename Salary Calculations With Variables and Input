@@ -1,0 +1,19 @@
+public class Salary {                         
+   public static void main(String[] args) { 
+      int hourlyWage;
+      int workHoursPerWeek;  
+      int annualSalary;
+
+      // TODO: Declare and initialize variable workWeeksPerYear, then replace the 50's below
+
+      hourlyWage = 20;
+      workHoursPerWeek = 40;
+       
+      annualSalary = hourlyWage * workHoursPerWeek * 50; 
+      System.out.print("Annual salary is: ");         
+      System.out.println(annualSalary);  
+      
+      System.out.print("Monthly salary is: ");
+      System.out.println((hourlyWage * workHoursPerWeek * 50) / 12); 
+   } 
+}
